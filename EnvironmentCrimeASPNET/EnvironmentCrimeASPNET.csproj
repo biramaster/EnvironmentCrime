@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EnviromentalCrime.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -65,9 +66,74 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="citizen\about\contact.html" />
+    <Content Include="citizen\about\faq.aspx" />
+    <Content Include="citizen\about\Services.aspx" />
+    <Content Include="citizen\thanks.html" />
+    <Content Include="citizen\validate.html" />
+    <Content Include="coordinator\crimeCoordinator.html" />
+    <Content Include="coordinator\reportCrime.html" />
+    <Content Include="coordinator\startCoordinator.html" />
+    <Content Include="coordinator\thanks.html" />
+    <Content Include="coordinator\validate.html" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\background.png" />
+    <Content Include="images\background_darker.png" />
+    <Content Include="images\button.png" />
+    <Content Include="images\buttonHover.png" />
+    <Content Include="images\imagetest.jpg" />
+    <Content Include="images\login.png" />
+    <Content Include="images\logout.png" />
+    <Content Include="images\menu.png" />
+    <Content Include="images\menuHover.png" />
+    <Content Include="images\pdficon_large.gif" />
+    <Content Include="images\pic_1.jpg" />
+    <Content Include="images\pic_2.jpg" />
+    <Content Include="images\pic_3.jpg" />
+    <Content Include="images\pic_4.jpg" />
+    <Content Include="images\pic_5.jpg" />
+    <Content Include="images\pic_6.jpg" />
+    <Content Include="images\pic_7.jpg" />
+    <Content Include="images\pic_8.jpg" />
+    <Content Include="images\report.png" />
+    <Content Include="images\report_add.png" />
+    <Content Include="investigator\crimeInvestigator.html" />
+    <Content Include="investigator\startInvestigator.html" />
+    <Content Include="login.html" />
+    <Content Include="manager\crimeManager.html" />
+    <Content Include="manager\startManager.html" />
+    <Content Include="stylesheet\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="citizen\about\faq.aspx.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="citizen\about\faq.aspx.designer.cs">
+      <DependentUpon>faq.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="citizen\about\Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="citizen\about\Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnviromentalCrime.Master.cs">
+      <DependentUpon>EnviromentalCrime.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnviromentalCrime.Master.designer.cs">
+      <DependentUpon>EnviromentalCrime.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>

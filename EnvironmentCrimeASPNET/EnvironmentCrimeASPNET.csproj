@@ -71,6 +71,8 @@
     <Content Include="login.aspx" />
     <Content Include="coordinator\coordinator.Master" />
     <Content Include="investigator\investigator.Master" />
+    <Content Include="manager\crimeManeger.aspx" />
+    <Content Include="manager\manager.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -104,8 +106,7 @@
     <Content Include="images\report.png" />
     <Content Include="images\report_add.png" />
     <Content Include="login.html" />
-    <Content Include="manager\crimeManager.html" />
-    <Content Include="manager\startManager.html" />
+    <Content Include="manager\startManager.aspx" />
     <Content Include="stylesheet\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -228,6 +229,27 @@
     </Compile>
     <Compile Include="investigator\startInvestigator.aspx.designer.cs">
       <DependentUpon>startInvestigator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manager\crimeManeger.aspx.cs">
+      <DependentUpon>crimeManeger.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manager\crimeManeger.aspx.designer.cs">
+      <DependentUpon>crimeManeger.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="manager\manager.Master.cs">
+      <DependentUpon>manager.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manager\manager.Master.designer.cs">
+      <DependentUpon>manager.Master</DependentUpon>
+    </Compile>
+    <Compile Include="manager\startManager.aspx.cs">
+      <DependentUpon>startManager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="manager\startManager.aspx.designer.cs">
+      <DependentUpon>startManager.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="login.aspx.cs">

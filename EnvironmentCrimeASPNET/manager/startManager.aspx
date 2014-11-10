@@ -1,25 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-		<title>Småstads kommun</title>
-		<link rel="stylesheet" href="../stylesheet/style.css" type="text/css" charset="utf-8" />
-	</head>
-
-	<body>
-		<div id="wrapper">
-			<div id="logo">
-				<h1>Småstad</h1>
-				<p>Kommunen där vi bryr oss om varandra</p>
-			</div><!-- End Logo -->
-
-			<ul id="nav">
-				<li><a class="reports" href="startManager.html">Start(Ärenden)</a></li>
-				<li class="right"><a class="logout" href="../index.html">Logga ut</a></li>
-			</ul><!-- End Nav -->
-
-			<div id="content">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/manager/manager.Master" AutoEventWireup="true" CodeBehind="startManager.aspx.cs" Inherits="EnvironmentCrimeASPNET.manager.startManager" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="content">
 				<h2>Ärenden</h2>
 				<p class="info">Du är inloggad som enhetschef</p>
 
@@ -123,11 +106,5 @@
 						<td>Ingen utredare satt</td>
 					</tr>
 				</table>
-
-				<div id="copyright">
-					&copy; Småstads Kommun All rights reserved.
-				</div>
-			</div><!-- End Content -->
-		</div><!-- End Wrapper -->
-	</body>
-</html>
+        </div>
+</asp:Content>

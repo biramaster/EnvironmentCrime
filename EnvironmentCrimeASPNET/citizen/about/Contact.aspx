@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/EnviromentalCrime.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="EnvironmentCrimeASPNET.citizen.about.Contact" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/EnviromentalCrime.Master" AutoEventWireup="true" CodeBehind="contact.aspx.cs" Inherits="EnvironmentCrimeASPNET.citizen.about.Contact" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>

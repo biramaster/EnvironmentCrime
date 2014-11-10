@@ -22,10 +22,10 @@
             <ul id="nav">
                 <li><a href="Default.aspx" runat="server" >Hem</a></li>
                 <li><a href="citizen/about/services.aspx" runat="server" >Tjänster</a></li>
-                <li><a href="citizen/about/faq.html" runat="server" >FAQ</a></li>
-                <li><a href="citizen/about/contact.html" runat="server" >Kontakt</a></li>
+                <li><a href="citizen/about/faq.aspx" runat="server" >FAQ</a></li>
+                <li><a href="citizen/about/contact.aspx" runat="server" >Kontakt</a></li>
                 <li class="right">
-                    <a class="login" href="login.html" runat="server">Logga in (endast personal)</a>
+                    <a class="login" href="login.aspx" runat="server">Logga in (endast personal)</a>
                 </li>
             </ul>
             <!-- End Nav -->

@@ -43,7 +43,7 @@
                 <textarea name="information" rows="5" cols="16"></textarea>
             </p>
             <p>
-                <input class="button" type="submit" value="Skicka in" />
+                <input class="button" type="submit" value="Skicka in"/>
             </p>
         </form>
 

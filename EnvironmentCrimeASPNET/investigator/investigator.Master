@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="investigator.master.cs" Inherits="EnvironmentCrimeASPNET.investigator.investigator" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Småstads kommun</title>
+    <link rel="stylesheet" href="../stylesheet/style.css" type="text/css" charset="utf-8" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+            <div id="logo">
+                <h1>Småstad</h1>
+                <p>Kommunen där vi bryr oss om varandra</p>
+            </div>
+            <!-- End Logo -->
+
+            <ul id="nav">
+                <li><a class="reports" href="startInvestigator.aspx">Start(Ärenden)</a></li>
+                <li class="right"><a class="logout" href="~/Default.aspx" runat="server">Logga ut</a></li>
+            </ul>
+            <!-- End Nav -->
+
+            <div>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+
+            <div id="copyright">
+                &copy; Småstads Kommun All rights reserved.
+            </div>
+        </div>
+    </form>
+</body>
+</html>

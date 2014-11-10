@@ -71,7 +71,7 @@
     <Content Include="login.aspx" />
     <Content Include="coordinator\coordinator.Master" />
     <Content Include="investigator\investigator.Master" />
-    <Content Include="manager\crimeManeger.aspx" />
+    <Content Include="manager\crimeManager.aspx" />
     <Content Include="manager\manager.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -230,12 +230,12 @@
     <Compile Include="investigator\startInvestigator.aspx.designer.cs">
       <DependentUpon>startInvestigator.aspx</DependentUpon>
     </Compile>
-    <Compile Include="manager\crimeManeger.aspx.cs">
-      <DependentUpon>crimeManeger.aspx</DependentUpon>
+    <Compile Include="manager\crimeManager.aspx.cs">
+      <DependentUpon>crimeManager.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="manager\crimeManeger.aspx.designer.cs">
-      <DependentUpon>crimeManeger.aspx</DependentUpon>
+    <Compile Include="manager\crimeManager.aspx.designer.cs">
+      <DependentUpon>crimeManager.aspx</DependentUpon>
     </Compile>
     <Compile Include="manager\manager.Master.cs">
       <DependentUpon>manager.Master</DependentUpon>

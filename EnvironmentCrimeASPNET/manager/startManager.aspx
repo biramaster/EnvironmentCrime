@@ -51,7 +51,7 @@
 					</tr>
 					<tr>
 						<td>2013-05-01</td>
-						<td><a href="crimeManager.html">2013-35-0201</a></td>
+						<td><a href="crimeManager.aspx">2013-35-0201</a></td>
 						<td>Oljeutsläpp</td>
 						<td>Ej startad</td>
 						<td>Tekniska avloppshanteringen</td>
@@ -59,7 +59,7 @@
 					</tr>
 					<tr>
 						<td>2013-05-01</td>
-						<td><a href="crimeManager.html">2013-35-0202</a></td>
+						<td><a href="crimeManager.aspx">2013-35-0202</a></td>
 						<td>Oljeutsläpp</td>
 						<td>Pågående</td>
 						<td>Tekniska avloppshanteringen</td>
@@ -67,7 +67,7 @@
 					</tr>
 					<tr>
 						<td>2013-05-01</td>
-						<td><a href="crimeManager.html">2013-35-0203</a></td>
+						<td><a href="crimeManager.aspx">2013-35-0203</a></td>
 						<td>Oljeutsläpp</td>
 						<td>Ej startad</td>
 						<td>Tekniska avloppshanteringen</td>
@@ -75,7 +75,7 @@
 					</tr>
 					<tr>
 						<td>2013-05-01</td>
-						<td><a href="crimeManager.html">2013-35-0204</a></td>
+						<td><a href="crimeManager.aspx">2013-35-0204</a></td>
 						<td>Oljeutsläpp</td>
 						<td>Ej startad</td>
 						<td>Tekniska avloppshanteringen</td>
@@ -83,7 +83,7 @@
 					</tr>
 					<tr>
 						<td>2013-05-01</td>
-						<td><a href="crimeManager.html">2013-35-0205</a></td>
+						<td><a href="crimeManager.aspx">2013-35-0205</a></td>
 						<td>Oljeutsläpp</td>
 						<td>Pågående</td>
 						<td>Tekniska avloppshanteringen</td>
@@ -91,7 +91,7 @@
 					</tr>
 					<tr>
 						<td>2013-05-01</td>
-						<td><a href="crimeManager.html">2013-35-0206</a></td>
+						<td><a href="crimeManager.aspx">2013-35-0206</a></td>
 						<td>Oljeutsläpp</td>
 						<td>Ej startad</td>
 						<td>Tekniska avloppshanteringen</td>
@@ -99,7 +99,7 @@
 					</tr>
 					<tr>
 						<td>2013-05-01</td>
-						<td><a href="crimeManager.html">2013-35-0206</a></td>
+						<td><a href="crimeManager.aspx">2013-35-0206</a></td>
 						<td>Oljeutsläpp</td>
 						<td>Ej startad</td>
 						<td>Tekniska avloppshanteringen</td>

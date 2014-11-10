@@ -8,7 +8,7 @@
         <p class="info">Du är inloggad som samordnare</p>
 
         <p>Fyll i formuläret nedan, alla rutor markerade med stjärna (*) måste fyllas i</p>
-        <form method="post" action="validate.html">
+        <form method="post" action="validate.aspx">
             <p>
                 <input type="hidden" name="isSubmitted" value="true" />
             </p>
@@ -47,9 +47,7 @@
             </p>
         </form>
 
-        <div id="copyright">
-            &copy; Småstads Kommun All rights reserved.
-        </div>
+        
     </div>
     <!-- End Content -->
 </asp:Content>

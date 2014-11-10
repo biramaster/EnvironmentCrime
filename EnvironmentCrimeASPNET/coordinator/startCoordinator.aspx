@@ -112,9 +112,7 @@
             </tr>
         </table>
 
-        <div id="copyright">
-            &copy; Småstads Kommun All rights reserved.
-        </div>
+        
     </div>
     <!-- End Content -->
 </asp:Content>

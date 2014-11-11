@@ -17,6 +17,9 @@
 
         <p><a class="button" href="startCoordinator.aspx">Avsluta rapporteringen</a></p>
 
+        <div id="copyright">
+            &copy; Småstads Kommun All rights reserved.
+        </div>
     </div>
     <!-- End Content -->
 </asp:Content>

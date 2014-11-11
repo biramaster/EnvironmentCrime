@@ -104,6 +104,9 @@
             <p>
                 <input class="button" type="submit" value="Spara ändringarna" runat="server"/>
             </p>
+            <div id="copyright">
+                &copy; Småstads Kommun All rights reserved.
+            </div>
         </div>
     </div>
 </asp:Content>

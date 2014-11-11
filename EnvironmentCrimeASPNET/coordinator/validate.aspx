@@ -38,6 +38,9 @@
         <p>
             <a class="button" href="reportCrime.aspx" id="link">Tillbaka</a> <a class="button" href="thanks.aspx">Bekräfta</a>
         </p>
+        <div id="copyright">
+            &copy; Småstads Kommun All rights reserved.
+        </div>
     </div>
     <!-- End Content -->
 </asp:Content>

@@ -93,6 +93,10 @@
                         </select>
             </p>
             <p>
-                <input class="button" type="submit" value="Spara" /></p>
+                <input class="button" type="submit" value="Spara" />
+            </p>
+            <div id="copyright">
+                &copy; Småstads Kommun All rights reserved.
+            </div>
         </div>
 </asp:Content>

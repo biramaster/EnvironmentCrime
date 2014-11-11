@@ -43,11 +43,13 @@
                 <textarea name="information" rows="5" cols="16"></textarea>
             </p>
             <p>
-                <input class="button" type="submit" value="Skicka in"/>
+                <input class="button" type="submit" value="Skicka in" />
             </p>
         </form>
 
-        
+        <div id="copyright">
+            &copy; Småstads Kommun All rights reserved.
+        </div>
     </div>
     <!-- End Content -->
 </asp:Content>

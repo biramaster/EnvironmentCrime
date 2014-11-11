@@ -94,8 +94,14 @@
             <p>
                 <input type="radio" name="noAction" value="noAction" />
                 Ingen åtgärd:
-                <input type="text" name="reason" value="Ange motivering" /></p>
+                <input type="text" name="reason" value="Ange motivering" />
+            </p>
             <p>
-                <input class="button" type="submit" value="Spara" /></p>
+                <input class="button" type="submit" value="Spara" />
+            </p>
+
+            <div id="copyright">
+                &copy; Småstads Kommun All rights reserved.
+            </div>
         </div>
 </asp:Content>

@@ -30,9 +30,7 @@
                 </asp:ContentPlaceHolder>
             </div>
 
-            <div id="copyright">
-                &copy; Småstads Kommun All rights reserved.
-            </div>
+
         </div>
     </form>
 </body>

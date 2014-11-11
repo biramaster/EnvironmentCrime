@@ -11,6 +11,15 @@ namespace EnvironmentCrimeASPNET.coordinator
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack)
+            {
+                //Om detta är första gången så görs något 
+            }
+            else
+            {
+                //Så kanske det händer något annat 
+                Response.Redirect("validate.aspx");
+            }
 
         }
     }

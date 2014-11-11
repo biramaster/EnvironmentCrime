@@ -18,6 +18,7 @@ namespace EnvironmentCrimeASPNET.coordinator
             else
             { 
                 //Så kanske det händer något annat 
+                Response.Redirect("validate.aspx");
             }
 
         }
